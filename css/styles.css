@@ -439,17 +439,9 @@ body{
 
 
 
-@media screen and (max-height:450px){
+@media screen and (max-height:450px) and (min-height: 380px){
     .nav__hero{
         position: relative;
-        
-    }
-
-}
-@media screen and (max-height:600px){
-
-    .hero__main{
-        padding-top: 100px;
     }
 
 }
