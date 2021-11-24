@@ -442,7 +442,7 @@ body{
 
 @media screen and (max-width:1000px){
     .mockup{
-        width: 600px;
+        width: 50%;
         height: auto;
     }
 
