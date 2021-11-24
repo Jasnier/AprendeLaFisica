@@ -439,7 +439,12 @@ body{
 
 
 
+@media screen and (max-height:350px){
+    .nav__hero{
+        position: relative;
+    }
 
+}
 @media screen and (max-width:1000px){
     .mockup{
         width: 50%;
