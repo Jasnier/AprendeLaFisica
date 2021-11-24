@@ -439,12 +439,16 @@ body{
 
 
 
-@media screen and (max-height:450px) and (min-height: 340px){
+@media screen and (max-height:450px) and (min-height: 250px){
     .nav__hero{
         position: relative;
+        margin-bottom: 80px;
+    }
+    .hero{
+        
+        height: 480px;
     }
 
-}
 
 
 }
