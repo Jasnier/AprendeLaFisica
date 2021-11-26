@@ -149,7 +149,7 @@ body{
 .cajita{
     width: 90%;
     height:0%;
-    background: linear-gradient(180deg, #F7CE90 0%, #F4BD76 100%);
+    background: black;
     padding: 30px;
     margin-bottom: 70px;
 }
@@ -176,18 +176,18 @@ body{
 
 
 .tabla-contenido{
-    color: rgb(46, 43, 43);
+    color: #F7CE90 ;
     font-size: 23px;
     margin-left: 20px;
     line-height: 32px;
     margin-bottom: 60px;
 }
 .tex-deco{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 .tex-deco:hover{
-    color: blue;
+    color: #F7CE90;
     text-decoration: none;
 }
 .numeracion{
@@ -205,6 +205,7 @@ body{
     font-size: 40px;
     margin-bottom: 30px;
 }
+
 .caja_imagenes{
     display: flex;
     justify-content: space-around;
@@ -213,6 +214,17 @@ body{
 .img-vec{
     width: 250px;
     height: 250px;
+}
+.caja_img{
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+.caja_im{
+    width: 250px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 30px;
 }
 .img-trian{
     width: 600px;
@@ -435,8 +447,8 @@ body{
 
 .check__copy{
     font-weight: 300;
+    
 }
-
 
 @media screen and (max-height:450px) and (min-height: 250px) and (min-width:710px){
     .nav__hero{
@@ -449,6 +461,9 @@ body{
     }
 
 }
+
+
+
 
 @media screen and (max-width:1000px){
     .mockup{
@@ -549,7 +564,15 @@ body{
         margin-left: auto;
         margin-right: auto;
     }
-
+    .img-vec{
+        width: 90%;
+        height: 0%;
+    }
+    .caja_im{
+        width: 100%;
+        height: 0%;
+        margin: auto;
+    }
     .video{
         margin: 20px;
     }
@@ -619,6 +642,7 @@ body{
         padding: 60px 0;
     }
     .mockup{
+        
         margin-top: 100px;
     }
     .hero{
@@ -753,6 +777,16 @@ body{
     .Formula{
         font-size: 30px;
     }
+    .img-vec{
+        width: 90%;
+        height: 0%;
+        
+    }
+    .caja_im{
+        width: 90%;
+        height: 0%;
+        margin: auto;
+    }
     .img-eje{
         width: 95%;
         height: 0%;
@@ -851,6 +885,12 @@ body{
     .img-vec{
         width: 90%;
         height: 0%;
+        
+    }
+    .caja_im{
+        width: 90%;
+        height: 0%;
+        margin: auto;
     }
     .img-vecs{
         width: 100%;
@@ -945,7 +985,10 @@ body{
     }
     .Formula{
         font-size: 16px;
+        text-align: center;
     }
+
+
     .img-eje{
         width: 95%;
         height: 0%;
